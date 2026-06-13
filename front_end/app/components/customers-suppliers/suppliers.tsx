@@ -250,6 +250,3 @@ const Suppliers: React.FC<SuppliersProps> = ({ onSelectSupplier }) => {
 };
 
 export default Suppliers;
-
-
-export default Suppliers;

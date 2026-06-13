@@ -11,7 +11,7 @@ const SubscriptionsManagement = () => {
   const [selectedPlan, setSelectedPlan] = useState<any>(null);
   const [isTierDetailsOpen, setIsTierDetailsOpen] = useState(false);
   const [tiers, setTiers] = useState<any[]>([]);
-  const [subscriptions, setSubscriptions] = useState<any[]>([]);
+  const [dbSubscriptions, setDbSubscriptions] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -22,7 +22,7 @@ const SubscriptionsManagement = () => {
           api.get<any[]>("/superadmin/subscriptions/tenant-subscriptions/"),
         ]);
         setTiers(tiersData);
-        setSubscriptions(subsData);
+        setDbSubscriptions(subsData);
       } catch (error) {
         console.error("Failed to fetch subscriptions:", error);
       } finally {
@@ -92,7 +92,7 @@ const SubscriptionsManagement = () => {
     },
   ];
 
-  const subscriptions = [
+  const demoSubscriptions = [
     {
       tenant: "Kamau Electronics",
       plan: "Enterprise",
@@ -126,6 +126,8 @@ const SubscriptionsManagement = () => {
       method: "M-Pesa Paybill",
     },
   ];
+
+  const displaySubscriptions = dbSubscriptions.length > 0 ? dbSubscriptions : demoSubscriptions;
 
   return (
     <div className="p-3 md:p-3 lg:p-3 space-y-3 md:space-y-3">
@@ -274,7 +276,7 @@ const SubscriptionsManagement = () => {
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-50">
-              {subscriptions.map((s, i) => (
+              {displaySubscriptions.map((s, i) => (
                 <tr
                   key={i}
                   className="hover:bg-gray-50/30 transition-colors group cursor-default"

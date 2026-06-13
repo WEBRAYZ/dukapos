@@ -191,6 +191,3 @@ const MovementHistory = () => {
 };
 
 export default MovementHistory;
-
-
-export default MovementHistory;

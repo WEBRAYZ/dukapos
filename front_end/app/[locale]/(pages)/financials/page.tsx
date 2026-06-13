@@ -178,5 +178,3 @@ const FinancialsPage = () => {
 
 export default FinancialsPage;
 
-
-export default FinancialsPage;

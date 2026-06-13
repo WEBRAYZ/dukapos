@@ -289,6 +289,3 @@ const StockAdjustments = () => {
 };
 
 export default StockAdjustments;
-
-
-export default StockAdjustments;

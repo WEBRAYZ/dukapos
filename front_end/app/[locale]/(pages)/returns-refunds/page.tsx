@@ -227,6 +227,3 @@ const ReturnsRefundsPage = () => {
 };
 
 export default ReturnsRefundsPage;
-
-
-export default ReturnsRefundsPage;
