@@ -1,0 +1,19 @@
+{
+  "Navbar": {
+    "inventory": "Gestion des stocks",
+    "reports": "Rapports de ventes",
+    "products": "Catalogue de produits",
+    "suppliers": "Portail fournisseur",
+    "pos": "Terminal de vente",
+    "history": "Historique des ventes",
+    "howItWorks": "Comment ça marche",
+    "analytics": "Analytique",
+    "pricing": "Tarification",
+    "login": "Connexion",
+    "freeTrial": "Essai gratuit",
+    "getStarted": "Commencer",
+    "features": "Fonctionnalités",
+    "posSystem": "Système POS",
+    "proudlyKenyan": "Fièrement Kenyan"
+  }
+}

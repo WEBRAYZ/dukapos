@@ -1,0 +1,19 @@
+{
+  "Navbar": {
+    "inventory": "إدارة المخزون",
+    "reports": "تقارير المبيعات",
+    "products": "كتالوج المنتجات",
+    "suppliers": "بوابة الموردين",
+    "pos": "نقطة البيع",
+    "history": "سجل المبيعات",
+    "howItWorks": "كيف يعمل",
+    "analytics": "التحليلات",
+    "pricing": "الأسعار",
+    "login": "تسجيل الدخول",
+    "freeTrial": "تجربة مجانية",
+    "getStarted": "ابدأ الآن",
+    "features": "الميزات",
+    "posSystem": "نظام نقطة البيع",
+    "proudlyKenyan": "فخور بأنه كيني"
+  }
+}

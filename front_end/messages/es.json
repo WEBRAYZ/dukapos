@@ -1,0 +1,19 @@
+{
+  "Navbar": {
+    "inventory": "Gestión de inventario",
+    "reports": "Informes de ventas",
+    "products": "Catálogo de productos",
+    "suppliers": "Portal de proveedores",
+    "pos": "Terminal POS",
+    "history": "Historial de ventas",
+    "howItWorks": "Cómo funciona",
+    "analytics": "Analítica",
+    "pricing": "Precios",
+    "login": "Iniciar sesión",
+    "freeTrial": "Prueba gratuita",
+    "getStarted": "Empezar",
+    "features": "Características",
+    "posSystem": "Sistema POS",
+    "proudlyKenyan": "Orgullosamente Keniano"
+  }
+}
